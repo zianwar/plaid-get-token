@@ -29,7 +29,7 @@ npm run get-token <account_name> <output_token_path>
 
  **What the command will do is:**
 
->>Start a local server at [http://localhost:3333](http://localhost:3333) which you can visit in your browser and go through the authentication flow. Once you've linked the bank, its associated access token will be saved in the path you provided `<output_token_path>`.  
+>Start a local server at [http://localhost:3333](http://localhost:3333) which you can visit in your browser and go through the authentication flow. Once you've linked the bank, its associated access token will be saved in the path you provided `<output_token_path>`.  
 This process needs to be repeated for each bank you want to connect. Make sure to run each with a different `account` name.
 
 - After than you can use your access token, to talk with the [Plaid](https://plaid.com/) API to retreive your balance, transactions....
